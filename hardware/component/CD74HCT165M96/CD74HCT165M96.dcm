@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74HCT165M96
+D High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
+K
+F http://www.ti.com/lit/ds/symlink/cd74hct165.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CD74HCT165M96
+#/181211/511098/2.50/16/3/Integrated Circuit
+DEF CD74HCT165M96 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "CD74HCT165M96" 1250 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/cd74hct165.pdf" 1250 0 50 H I L CNN
+F4 "High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register" 1250 -100 50 H I L CNN "Description"
+F5 "1.75" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CD74HCT165M96" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-CD74HCT165M96" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HCT165M96?qs=b0gIXGU74fNCD%2FJS1Qf9XQ%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "CD74HCT165M96" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cd74hct165m96/texas-instruments?utm_currency=USD&region=europe" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~SH~/~LD 1 0 0 200 R 50 50 0 0 P
+X CLK 2 0 -100 200 R 50 50 0 0 P
+X E 3 0 -200 200 R 50 50 0 0 P
+X F 4 0 -300 200 R 50 50 0 0 P
+X G 5 0 -400 200 R 50 50 0 0 P
+X H 6 0 -500 200 R 50 50 0 0 P
+X ~QH 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1400 0 200 L 50 50 0 0 P
+X CLK_INH 15 1400 -100 200 L 50 50 0 0 P
+X D 14 1400 -200 200 L 50 50 0 0 P
+X C 13 1400 -300 200 L 50 50 0 0 P
+X B 12 1400 -400 200 L 50 50 0 0 P
+X A 11 1400 -500 200 L 50 50 0 0 P
+X SER 10 1400 -600 200 L 50 50 0 0 P
+X QH 9 1400 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
